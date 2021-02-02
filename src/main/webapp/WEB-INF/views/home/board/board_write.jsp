@@ -19,16 +19,7 @@
 	<!-- 메인콘텐츠영역 -->
 	<div id="container">
 		<!-- 메인상단위치표시영역 -->
-		<div class="location_area customer">
-			<div class="box_inner">
-				<h2 class="tit_page">스프링 <span class="in">in</span> 자바</h2>
-				<p class="location">고객센터 <span class="path">/</span> 공지사항</p>
-				<ul class="page_menu clear">
-					<li><a href="#" class="on">공지사항</a></li>
-					<li><a href="#">문의하기</a></li>
-				</ul>
-			</div>
-		</div>	
+		<%@ include file="../include/container_header.jsp" %>
 		<!-- //메인상단위치표시영역 -->
 
 		<!-- 메인본문영역 -->
@@ -50,7 +41,7 @@
 						</li>
 						<li class="clear">
 							<label for="writer_lbl" class="tit_lbl pilsoo_item">작성자명</label>
-							<div class="app_content"><input type="text" name="writer" class="w100p" id="writer_lbl" placeholder="이름을 입력해주세요" required/></div>
+							<div class="app_content"><input value="${session_username}" type="text" name="writer" class="w100p" id="writer_lbl" placeholder="이름을 입력해주세요" required/></div>
 						</li>
 						<li class="clear">
 		                    <label for="file_lbl" class="tit_lbl">첨부파일</label>
