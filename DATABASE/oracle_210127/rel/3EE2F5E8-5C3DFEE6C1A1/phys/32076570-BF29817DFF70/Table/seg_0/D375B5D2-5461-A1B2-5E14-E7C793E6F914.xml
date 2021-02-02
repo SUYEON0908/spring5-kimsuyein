@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TBL_ATTACH" directorySegmentName="seg_0" id="D375B5D2-5461-A1B2-5E14-E7C793E6F914">
+<createdBy>user</createdBy>
+<createdTime>2021-01-27 03:22:41 UTC</createdTime>
+<ownerDesignName>210127</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="BNO" id="00FAB37D-C3B6-E930-06DA-7A554295B7D7">
+<createdBy>user</createdBy>
+<createdTime>2021-01-27 03:32:25 UTC</createdTime>
+<ownerDesignName>210127</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REAL_FILE_NAME" id="3AAB617E-4CCB-8EF8-9106-E01264C5CDA9">
+<createdBy>user</createdBy>
+<createdTime>2021-01-27 03:26:22 UTC</createdTime>
+<ownerDesignName>210127</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REG_DATE" id="6E21D23D-77C1-0994-CD1A-DAD70B26EBD0">
+<createdBy>user</createdBy>
+<createdTime>2021-01-27 03:26:22 UTC</createdTime>
+<ownerDesignName>210127</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SAVE_FILE_NAME" id="E5A5F920-D1AC-5BC8-B810-DF5BB49E32DC">
+<createdBy>user</createdBy>
+<createdTime>2021-01-27 03:26:22 UTC</createdTime>
+<ownerDesignName>210127</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TBL_ATTACH_TBL_BOARD_FK" id="19D9F495-B69C-0922-4ACD-D1E17713E2EC">
+<createdBy>user</createdBy>
+<createdTime>2021-01-27 03:32:25 UTC</createdTime>
+<ownerDesignName>210127</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TBL_ATTACH_PK" id="D1772204-FF01-73C3-11C4-F905F563C8E6">
+<createdBy>user</createdBy>
+<createdTime>2021-01-27 03:26:22 UTC</createdTime>
+<ownerDesignName>210127</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
